@@ -7,7 +7,7 @@ import Rectangle_3 from '../img/Rectangle_3.png'
 const CardCarousel = () => (
     <React.Fragment>
     <div className="container">
-        <div className="row  ">
+        <div className="row row-card-carousel" style={{padding: '2em'}}>
             <div id="recipeCarousel" className="carousel slide w-100" data-ride="carousel">
                 <div className="carousel-inner carousel-inner-box " role="listbox">
                     <div className="carousel-item active card-carousel-item  ">

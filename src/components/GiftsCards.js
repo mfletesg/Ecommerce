@@ -3,7 +3,7 @@ import '../styles/GiftsCards.css'
 
 const GiftsCards = ({products, reseñas}) => (
 <Fragment>
-    <div className="album py-5 bg-light">
+    <div className="album py-5 ">
         <div className="container container-cards">
             <div className="row">
                 {
@@ -11,21 +11,22 @@ const GiftsCards = ({products, reseñas}) => (
                         <div className="col-md-3" key={product.id}>
                             <div className="card mb-4 shadow-sm">
 
+                            <div className="badge badge-pill badge-outline-primary"><center className="badge-text">10%</center></div>
                                 <img src={product.img} className="rounded" alt="Responsive" width="100%" height="260"/>
-                                <div className="card-body">
+                                <div className="card-body card-body-text">
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div className="btn-group">
                                             <p className="card-text small">{product.name}</p>
                                         </div>
-                                        <small className="text-muted"><strong>${product.specialPrice}</strong></small>
+                                        <small className="text-muted "><strong>${product.specialPrice}</strong></small>
                                     </div>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div className="btn-group">
                                             <p className="card-text small">&nbsp;</p>
                                         </div>
-                                        <small className="text-muted">${product.price}</small>
+                                        <s className="text-muted small">${product.price}</s>
                                     </div>
-                                    <h5 className="card-text small">{product.category}</h5>
+                                    <h5 className="text-muted small text-category-card">{product.category}</h5>
                                         {
                                             reseñas.map((reseña, y) =>
                                                 {if (product.id===reseña.id) {

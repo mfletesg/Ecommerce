@@ -13,3 +13,41 @@
 .card{
     border-color: hsla(0, 0%, 100%, 0) !important;
 }
+.badge {
+    position: absolute;
+    border-radius: 0;
+    font-size: 12px;
+    line-height: 1;
+    padding: .375rem .5625rem;
+    font-weight: normal;
+    top : 10px;
+    left: 10px;
+}
+
+.badge-outline-primary {
+    color: #e2e2e2;
+    border: 1px solid #454545;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(34, 34, 34, 0.91);
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+
+}
+.badge.badge-pill {
+    border-radius: 10rem
+}
+
+.badge-text{
+    width:100% !important;
+}
+
+.text-category-card{
+    font-size: 9px;
+    color: rgb(164, 164, 164);
+}
+
+.card-body-text{
+    line-height : 13px !important;
+}
