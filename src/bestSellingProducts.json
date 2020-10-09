@@ -1,0 +1,62 @@
+{
+    "products": [
+        {
+            "id": 234,
+            "name": "Same day Delivery",
+            "price": 450,
+            "specialPrice": 250,
+            "category" : "Wedding Flower",
+            "img": "./7.jpg"
+        },
+        {
+            "id": 237,
+            "name": "Basket of Gladness",
+            "price": 99,
+            "specialPrice": 70,
+            "category" : "Bouquet",
+            "img": "./8.jpg"
+        },
+        {
+            "id": 236,
+            "name": "Triple Pleasures",
+            "price": 290,
+            "specialPrice": 110,
+            "category" : "Wedding Flowers",
+            "img": "./9.jpg"
+        },
+        {
+            "id": 235       ,
+            "name": "Tulip Flower Bouquet",
+            "price": 110,
+            "specialPrice": 50,
+            "category" : "Flower Bouquet",
+            "img": "./10.jpg"
+        }
+    ],
+    "reseñas": [
+        {
+            "id": 234,
+            "stars": 5
+        },
+        {
+            "id": 234,
+            "stars": 2
+        },
+        {
+            "id": 234,
+            "stars": 2
+        },
+        {
+            "id": 236,
+            "stars": 4
+        },
+        {
+            "id": 236,
+            "stars": 2
+        },
+        {
+            "id": 237,
+            "stars": 5
+        }
+    ]
+}

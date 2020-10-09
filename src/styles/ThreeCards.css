@@ -1,0 +1,24 @@
+.card-image{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-page{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    border-color: rgb(255, 255, 255);
+}
+
+.btn-box{
+    width: 40%;
+    border-radius: 0px;
+    border-color: rgb(75, 75, 75);
+    background-color: rgb(54, 54, 54);
+    font-size: 13px;
+}
+
+.margin-content{
+    margin-left: 40px !important ;
+}

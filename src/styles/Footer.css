@@ -1,0 +1,27 @@
+.footer-color{
+    background-color: rgb(41, 40, 40);
+}
+
+.footer{
+    width:100%;
+    margin-left:0%;
+    margin-right: 10%;
+}
+
+a { color: #b4b4b4 !important; } /* CSS link color */
+
+
+@media(min-width:1200px){
+
+    .footer{
+        width:140%;
+        margin-left:-20%;
+        margin-right: 100%;
+    }
+}
+
+
+
+.footer-color2{
+    background-color: rgb(4, 4, 4) !important;
+}

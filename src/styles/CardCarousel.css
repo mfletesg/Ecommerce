@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .carousel-inner-box .card-carousel-item > div {
+        display: none;
+    }
+    .carousel-inner-box .card-carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner-box .carousel-item.active,
+.carousel-inner-box .carousel-item-next,
+.carousel-inner-box .carousel-item-prev {
+    display: flex;
+}
+
+
+
+.carousel-inner-box .card-carousel-item{
+    padding: 0 !important;
+    line-height : 1px !important;
+}

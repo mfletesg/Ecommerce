@@ -1,0 +1,19 @@
+.d-flex{
+    margin: 0 auto !important;
+}
+
+.btn-group-cart{
+    background-color: rgb(238, 238, 238) !important;
+}
+
+
+.bar-title-category{
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
+
+
+.btn-group-body{
+    height: 200% !important;
+    background-color: rgb(238, 238, 238);
+}
