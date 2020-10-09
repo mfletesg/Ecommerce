@@ -15,11 +15,11 @@ const Footer = () => (
             <div className="row mt-3 text-white footer">
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <h1 className="w-20 p-3 text-uppercase "><i className="fas fa-shopping-bag"></i> Company</h1>
-                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width: '60px'}} />
+
                     <p className="small">Great Range Of Laptops For Your Everyday Essential w/
                         Intel ® Core™. Same Day Shipment &bull; Cash On Delivery  &bull;
                         EMI Options India's No.1 Most Trusted Technology Brand in 2015</p>
-                    <hr/>
+                    <hr  style={{ borderTop: '1px solid #4e4e4e'}} ></hr>
                     <p className="small">
                         <i className="fas fa-home mr-3"></i> 321, Ramis Gandour Colony, District 9 Florida
                     </p>
@@ -104,8 +104,13 @@ const Footer = () => (
                 </div>
             </div>
         </div>
-        <div className="footer-copyright text-center py-3 footer-color2 text-white">
-            Copyright © 2018. Company All Rights Reserved
+
+        <div className="footer-copyright text-left py-3 footer-color2 text-white">
+        <div className="container container-footer">
+          <div className="row py-1 d-flex">
+          Copyright © 2018. Company All Rights Reserved
+          </div>
+        </div>
         </div>
     </footer>
 </React.Fragment>

@@ -10,7 +10,7 @@ const PartnersBar = ({title}) => (
     <div className="album py-5 bg-light">
         <div className="container ">
             <nav className="navbar navbar-light bg-light justify-content-between">
-                <a className="navbar-brand" href="/">BRANDS</a>
+                <p className="navbar-brand" >BRANDS</p>
                 <form className="form-inline">
                 <button type="button" className="btn btn-outline-secondary btn-sm"><i className="fas fa-chevron-left"></i></button>&nbsp;&nbsp;
                     <button type="button" className="btn btn-outline-secondary btn-sm"><i className="fas fa-chevron-right"></i></button>

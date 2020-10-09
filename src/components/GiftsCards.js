@@ -4,6 +4,15 @@ import '../styles/GiftsCards.css'
 const GiftsCards = ({products, reseñas}) => (
 <Fragment>
     <div className="album py-5 ">
+        <div className="container ">
+            <nav className="navbar navbar-light bg-light justify-content-between">
+                <p className="navbar-brand" ></p>
+                <form className="form-inline">
+                <button type="button" className="btn btn-outline-secondary btn-sm"><i className="fas fa-chevron-left"></i></button>&nbsp;&nbsp;
+                    <button type="button" className="btn btn-outline-secondary btn-sm"><i className="fas fa-chevron-right"></i></button>
+                </form>
+            </nav>
+        </div>
         <div className="container container-cards">
             <div className="row">
                 {
@@ -98,7 +107,6 @@ const GiftsCards = ({products, reseñas}) => (
                                                     }
                                                     return (
                                                         <div className="productText" key={y}>
-
                                                         </div>
                                                     )}
                                                     return(
@@ -108,6 +116,8 @@ const GiftsCards = ({products, reseñas}) => (
                                                 }
                                             )
                                         }
+                                        <br/>
+                                        <a className="text-muted ">Add To Card</a>
                                 </div>
                             </div>
                         </div>
