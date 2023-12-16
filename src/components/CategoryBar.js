@@ -24,7 +24,7 @@ const CategoryBar = () => (
                         </div>
                     </div>
                 </div>
-              <button type="button" className="btn  dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true"
+              <button type="button" className="btn  dropdown-toggle px-3"  aria-haspopup="true" href="#/"
                 aria-expanded="false">
               </button>
             </div>
