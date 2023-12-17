@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [https://ecommerce-miguel-fletes.herokuapp.com](https://ecommerce.miguelfletes.com)
 
+![ecommerce](https://github.com/mfletesg/ecommerce/blob/master/src/img/ecommerce.miguelfletes.com_.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
