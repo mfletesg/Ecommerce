@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) by Miguel Fletes.
 
-[https://ecommerce-miguel-fletes.herokuapp.com](https://ecommerce.miguelfletes.com)
+[https://ecommerce.miguelfletes.com](https://ecommerce.miguelfletes.com)
 
 ![ecommerce](https://github.com/mfletesg/ecommerce/blob/master/src/img/ecommerce.miguelfletes.com_.png)
 
